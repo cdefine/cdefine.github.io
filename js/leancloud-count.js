@@ -342,7 +342,8 @@ if(urlCheckStatus){
 } else {		
 	AV.init({
 		appId: CONFIG_LEACLOUD_COUNT.appId,
-		appKey: CONFIG_LEACLOUD_COUNT.appKey
+		appKey: CONFIG_LEACLOUD_COUNT.appKey,
+        serverURLs: CONFIG_LEACLOUD_COUNT.serverURLs
 	});	
 	console.log("The format of <" + CONFIG_LEACLOUD_COUNT.serverURLs + "> is not correct!");
 }
