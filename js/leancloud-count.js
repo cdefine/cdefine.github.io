@@ -340,7 +340,7 @@ if(urlCheckStatus){
 		serverURLs: CONFIG_LEACLOUD_COUNT.serverURLs
 	});			
 } else {		
-    console.log("msg" + CONFIG_LEACLOUD_COUNT.serverURLs)
+    console.log("msg" + CONFIG_LEACLOUD_COUNT.serverURLs +urlCheckStatus)
 	AV.init({
 		appId: CONFIG_LEACLOUD_COUNT.appId,
 		appKey: CONFIG_LEACLOUD_COUNT.appKey
