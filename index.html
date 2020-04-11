@@ -43,7 +43,7 @@
     }
 	
     const CONFIG_LEACLOUD_COUNT = {
-      enable: false,
+      enable: true,
 	  appId: 'VBVMgp5mbRB9g9Oouvi6oYtu-MdYXbMMI',
 	  appKey: 'R8z6au0oUleNDwOwOxzzpxXO',
 	  serverURLs: 'http' || ' '
@@ -267,7 +267,25 @@
 						
 						
 
+	
+    <span class="leancloud_visitors" id="/2020/04/10/test2/_visitors" data-url="/2020/04/10/test2/" data-title="test2">
+       	<i class="icon-eye"></i>
+       	热度
+        
+            <i class="leancloud_visitors_count" id="leancloud_visitors_count">0</i>
+                   
+    </span>
+    
 
+
+
+	
+    <span class="leancloud_likes" id="/2020/04/10/test2/_likes" data-url="/2020/04/10/test2/" data-title="test2" rel="unlike">
+        <i class="icon-heart"></i>
+        喜欢
+        <i class="leancloud_likes_count" id="leancloud_likes_count">0</i>
+    </span>
+	
 
 						
 							<span class="right">      	
@@ -317,7 +335,25 @@
 						
 						
 
+	
+    <span class="leancloud_visitors" id="/2020/04/10/test/_visitors" data-url="/2020/04/10/test/" data-title="test">
+       	<i class="icon-eye"></i>
+       	热度
+        
+            <i class="leancloud_visitors_count" id="leancloud_visitors_count">0</i>
+                   
+    </span>
+    
 
+
+
+	
+    <span class="leancloud_likes" id="/2020/04/10/test/_likes" data-url="/2020/04/10/test/" data-title="test" rel="unlike">
+        <i class="icon-heart"></i>
+        喜欢
+        <i class="leancloud_likes_count" id="leancloud_likes_count">0</i>
+    </span>
+	
 
 						
 							<span class="right">      	
@@ -367,7 +403,25 @@
 						
 						
 
+	
+    <span class="leancloud_visitors" id="/2020/04/07/Hi/_visitors" data-url="/2020/04/07/Hi/" data-title="Hi">
+       	<i class="icon-eye"></i>
+       	热度
+        
+            <i class="leancloud_visitors_count" id="leancloud_visitors_count">0</i>
+                   
+    </span>
+    
 
+
+
+	
+    <span class="leancloud_likes" id="/2020/04/07/Hi/_likes" data-url="/2020/04/07/Hi/" data-title="Hi" rel="unlike">
+        <i class="icon-heart"></i>
+        喜欢
+        <i class="leancloud_likes_count" id="leancloud_likes_count">0</i>
+    </span>
+	
 
 						
 							<span class="right">      	
@@ -417,7 +471,25 @@
 						
 						
 
+	
+    <span class="leancloud_visitors" id="/2020/04/07/firstblog/_visitors" data-url="/2020/04/07/firstblog/" data-title="firstblog">
+       	<i class="icon-eye"></i>
+       	热度
+        
+            <i class="leancloud_visitors_count" id="leancloud_visitors_count">0</i>
+                   
+    </span>
+    
 
+
+
+	
+    <span class="leancloud_likes" id="/2020/04/07/firstblog/_likes" data-url="/2020/04/07/firstblog/" data-title="firstblog" rel="unlike">
+        <i class="icon-heart"></i>
+        喜欢
+        <i class="leancloud_likes_count" id="leancloud_likes_count">0</i>
+    </span>
+	
 
 						
 							<span class="right">      	
@@ -472,7 +544,25 @@ Mo...
 						
 						
 
+	
+    <span class="leancloud_visitors" id="/2020/04/07/hello-world/_visitors" data-url="/2020/04/07/hello-world/" data-title="Hello World">
+       	<i class="icon-eye"></i>
+       	热度
+        
+            <i class="leancloud_visitors_count" id="leancloud_visitors_count">0</i>
+                   
+    </span>
+    
 
+
+
+	
+    <span class="leancloud_likes" id="/2020/04/07/hello-world/_likes" data-url="/2020/04/07/hello-world/" data-title="Hello World" rel="unlike">
+        <i class="icon-heart"></i>
+        喜欢
+        <i class="leancloud_likes_count" id="leancloud_likes_count">0</i>
+    </span>
+	
 
 						
 							<span class="right">      	
@@ -647,6 +737,11 @@ Mo...
 -->
 
 
+  
+<script src="/plugin/leancloud/av-min.js"></script>
+<script src="/js/leancloud-count.js"></script>
+
+
 	
 
   
@@ -674,6 +769,21 @@ Mo...
 		<div class="local-search-footer">
 			<div class="topN-post">				
 				
+
+   
+	<div id="topN">
+		<div class="topN-title" data-title= "热门文章"></div> 
+	</div>
+	
+    <script>
+        var limitCount = 10;
+        if( $('#topN').length ){
+            setTimeout(function() {
+                topNPost(limitCount);
+			}, 3000);
+        }
+    </script>
+   
 								
 			</div>
 		</div>
